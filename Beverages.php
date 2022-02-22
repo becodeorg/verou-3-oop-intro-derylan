@@ -14,7 +14,7 @@ declare(strict_types=1);
 // TODO: Print the temperature on the screen.
 // USE TYPE HINTING EVERYWHERE!
 
-class Beverage
+class Beverage //The class always will have to be with a capital letter
 {
     public $color;
     public $temperature;
