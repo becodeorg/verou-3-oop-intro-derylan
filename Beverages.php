@@ -29,9 +29,9 @@ class Beverage //The class always will have to be with a capital letter
 
     public function getInfo()
     {
-        return "This beverage is $this->temperature and $this->color.";
+        return "This beverage is $this->temperature and $this->color. <br>";
     }
 }
 
 $cola = new Beverage('black', 2, 'cold');
-$cola->getInfo();
+echo $cola->getInfo();
